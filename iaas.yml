@@ -1,0 +1,6 @@
+version: '3.5'
+
+services:
+  rabbitmq:
+    environment:
+      - RABBITMQ_VHOST=/iaas
